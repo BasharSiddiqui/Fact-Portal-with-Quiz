@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #restart-button {
+      position: fixed;
+      height:50px;
+      width:140px;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1;
+      background-color: aqua;
+    }
+    
+    #back-button {
+      background-color: aqua;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="quiz-container">
+    <h2>Quiz</h2>
+    <form id="quiz-form">
+    </form>
+    <button id="submit-btn" onclick="window.location.href='main.html';">Return to Facts</button>
+  </div>
+  <button id="restart-button">Restart Quiz</button>
+  <button id="back-button">Go Back to Facts Page</button>
+  
+
+  <script src="quiz.js"></script>
+</body>
+
+</html>
